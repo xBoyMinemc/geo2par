@@ -90,7 +90,7 @@ setTimeout(() => {
 
 //newFunction("models/entity/armor_stand.geo.json")
 
-}, 200);
+}, 1000);
 let F = []
 function xboy(FilePath){
     F.push(FilePath)
@@ -101,7 +101,7 @@ function xboy(FilePath){
                     
 setInterval(()=>{
     newFunction(F.pop())
-},1500)
+},3000)
 
 function newFunction(FilePath) {
 
